@@ -1,0 +1,34 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <div class="container">
+    <h3  style="color: #4c3f3f">1. Data Breach von Yahoo 07/12/2012</h3>
+        <div class="card card-body">
+            <table class="table">
+                <tr>
+                    <th>Unternehmensname</th>
+                    <th>Anzahl der Tweets</th>
+                    <th>Anzahl der Wörter</th>
+                    <th>Anzahl der Zeichen</th>
+                    <th>Vor/Nach dem Breach</th>
+                    <th>!!averagewords!!</th>
+                    <th>!!tweets_per_30_days!!</th>
+                    <th>!!tweets_after_10_days!!</th>
+                    <th>!!tweets_after_20_days!!</th>
+                    <th>!!tweets_after_30_days!!</th>
+
+                </tr>
+                {% for detail in details %}
+                    <tr>
+                        <td>{{ detail.unternehmensname }}</td>
+                        <td>{{ detail.tweetsanzahl }}</td>
+                        <td>{{ detail.woerteranzahl }}</td>
+                        <td>{{ detail.zeichenanzahl }}</td>
+                        <td>{{ detail.vorodernach }}</td>
+                        <br>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %}

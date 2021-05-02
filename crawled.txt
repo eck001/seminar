@@ -1,0 +1,230 @@
+scrapy crawl TweetScraper -a query="from:PIHHealth since:2019-01-15 until:2020-02-08"
+python manage.py createdetails PIHHealth 2020-01-10
+
+scrapy crawl TweetScraper -a query="from:SinaiHealth since:2018-12-24 until:2020-01-17"
+python manage.py createdetails SinaiHealth 2019-12-19
+
+scrapy crawl TweetScraper -a query="from:UWMedicine since:2018-02-25 until:2019-03-21"
+python manage.py createdetails UWMedicine 2019-02-20
+
+scrapy crawl TweetScraper -a query="from:AtriumHealth since:2017-12-02 until:2018-12-26"
+python manage.py createdetails AtriumHealth 2018-11-27
+
+scrapy crawl TweetScraper -a query="from:LBHealth since:2017-05-20 until:2018-06-13"
+python manage.py createdetails LBHealth 2018-05-15
+
+scrapy crawl TweetScraper -a query="from:Hyatt since:2016-10-17 until:2017-11-10"
+python manage.py createdetails Hyatt 2017-10-12
+
+scrapy crawl TweetScraper -a query="from:Loews_Hotels since:2016-07-10 until:2017-08-03"
+python manage.py createdetails Loews_Hotels 2017-07-05
+
+scrapy crawl TweetScraper -a query="from:InterConHotels since:2016-02-09 until:2017-03-04"
+python manage.py createdetails InterConHotels 2017-02-03
+
+scrapy crawl TweetScraper -a query="from:cathaypacific since:2017-10-29 until:2018-11-22"
+python manage.py createdetails cathaypacific 2018-10-24
+
+scrapy crawl TweetScraper -a query="from:AirCanada since:2017-09-02 until:2018-09-26"
+python manage.py createdetails AirCanada 2018-08-28
+
+scrapy crawl TweetScraper -a query="from:Walgreens since:2019-03-05 until:2020-03-28"
+Walgreens
+46177695
+python manage.py createdetails Walgreens 2020-02-28
+
+scrapy crawl TweetScraper -a query="from:WAWA since:2018-12-24 until:2020-01-17"
+WAWA
+356866129
+python manage.py createdetails WAWA 2019-12-19
+
+scrapy crawl TweetScraper -a query="from:BedBathBeyond since:2018-11-03 until:2019-11-27"
+BedBathBeyond
+372817561
+python manage.py createdetails BedBathBeyond 2019-10-29
+
+scrapy crawl TweetScraper -a query="from:DoorDash since:2018-10-01 until:2019-10-25"
+DoorDash
+1531669496
+python manage.py createdetails DoorDash 2019-09-26
+
+scrapy crawl TweetScraper -a query="from:HyVee since:2018-08-19 until:2019-09-12"
+HyVee
+55607413
+python manage.py createdetails HyVee 2019-08-14
+
+scrapy crawl TweetScraper -a query="from:7eleven since:2018-07-09 until:2019-08-02"
+7eleven
+80102659
+python manage.py createdetails 7eleven 2019-07-04
+
+scrapy crawl TweetScraper -a query="from:RedtailCRM since:2018-05-28 until:2019-06-21"
+RedtailCRM
+26368727
+python manage.py createdetails RedtailCRM 2019-05-23
+
+scrapy crawl TweetScraper -a query="from:timehop since:2017-07-12 until:2018-08-07"
+timehop
+436143123
+python manage.py createdetails timehop 2018-07-09
+
+scrapy crawl TweetScraper -a query="from:adidas since:2017-07-03 until:2018-07-27"
+adidas
+300114634
+python manage.py createdetails adidas 2018-06-28
+
+scrapy crawl TweetScraper -a query="from:Bombas since:2017-05-26 until:2018-06-19"
+Bombas
+357940576
+python manage.py createdetails Bombas 2018-05-21
+
+scrapy crawl TweetScraper -a query="from:Docker since:2018-05-02 until:2019-05-26"
+Docker
+1138959692
+python manage.py createdetails Docker 2019-04-27
+
+scrapy crawl TweetScraper -a query="from:MyFitnessPal since:2017-04-03 until:2018-04-27"
+MyFitnessPal
+40989198
+python manage.py createdetails MyFitnessPal 2018-03-29
+
+scrapy crawl TweetScraper -a query="from:oneplus since:2017-01-20 until:2018-02-13"
+oneplus
+2196922086
+python manage.py createdetails oneplus 2018-01-15
+
+scrapy crawl TweetScraper -a query="from:alteryx since:2016-12-25 until:2018-01-18"
+alteryx
+16528607
+python manage.py createdetails alteryx 2017-12-20
+
+scrapy crawl TweetScraper -a query="from:virginmedia since:2019-03-11 until:2020-04-03"
+virginmedia
+17872077
+python manage.py createdetails virginmedia 2020-03-05
+
+
+
+scrapy crawl TweetScraper -a query="from:sberbank since:2018-10-08 until:2019-11-01"
+
+-python manage.py createdetails sberbank 2019-10-03
+
+scrapy crawl TweetScraper -a query="from:AmericanExpress since:2017-03-25 until:2018-04-18"
+AmericanExpress
+42712551
+python manage.py createdetails AmericanExpress 2018-03-20
+
+scrapy crawl TweetScraper -a query="from:DesjardinsGroup since:2018-06-25 until:2019-07-19"
+DesjardinsGroup
+59847548
+python manage.py createdetails DesjardinsGroup 2019-06-20
+
+scrapy crawl TweetScraper -a query="from:TaxAct since:2015-02-03 until:2016-02-27"
+TaxAct
+11955832
+python manage.py createdetails TaxAct 2016-01-29
+
+scrapy crawl TweetScraper -a query="from:LPL since:2017-11-22 until:2018-12-16"
+LPL
+882891427
+python manage.py createdetails LPL 2018-11-17
+
+scrapy crawl TweetScraper -a query="from:HSBC since:2017-11-07 until:2018-12-01"
+HSBC
+467368287
+python manage.py createdetails HSBC 2018-11-02
+
+scrapy crawl TweetScraper -a query="from:VirtuaHealth since:2015-04-27 until:2016-05-20"
+VirtuaHealth
+80378272
+python manage.py createdetails VirtuaHealth 2016-04-21
+
+scrapy crawl TweetScraper -a query="from:UCLAHealth since:2016-07-31 until:2017-08-24"
+UCLAHealth
+26982121
+python manage.py createdetails UCLAHealth 2017-07-26
+
+scrapy crawl TweetScraper -a query="from:emoryhealthcare since:2016-12-20 until:2018-01-13"
+emoryhealthcare
+16828372
+-python manage.py createdetails emoryhealthcare 2017-12-15
+
+scrapy crawl TweetScraper -a query="from:MyHeritage since:2018-03-26 until:2019-04-19"
+MyHeritage
+12859652
+python manage.py createdetails MyHeritage 2019-03-21
+
+scrapy crawl TweetScraper -a query="from:PresHealth since:2018-11-02 until:2019-11-26"
+PresHealth
+249311962
+python manage.py createdetails PresHealth 2019-10-28
+
+scrapy crawl TweetScraper -a query="from:Radisson since:2015-11-03 until:2016-11-26"
+Radisson
+112508604
+python manage.py createdetails Radisson 2016-10-28
+
+scrapy crawl TweetScraper -a query="from:TripAdvisor since:2016-07-16 until:2017-08-09"
+TripAdvisor
+16365636
+python manage.py createdetails TripAdvisor 2017-07-11
+
+scrapy crawl TweetScraper -a query="from:British_Airways since:2017-09-11 until:2018-10-05"
+British_Airways
+18332190
+python manage.py createdetails British_Airways 2018-09-06
+
+scrapy crawl TweetScraper -a query="from:Delta since:2017-04-09 until:2018-05-03"
+Delta
+5920532
+python manage.py createdetails Delta 2018-04-04
+
+scrapy crawl TweetScraper -a query="from:eddiebauer since:2015-08-24 until:2016-09-16"
+eddiebauer
+19624068
+python manage.py createdetails eddiebauer 2016-08-18
+
+scrapy crawl TweetScraper -a query="from:forever21 since:2016-11-19 until:2017-12-13"
+forever21
+28384755
+python manage.py createdetails forever21 2017-11-14
+
+scrapy crawl TweetScraper -a query="from:Macys since:2018-11-19 until:2019-12-13"
+Macys
+50687788
+python manage.py createdetails Macys 2019-11-14
+
+scrapy crawl TweetScraper -a query="from:Nordstrom since:2017-11-10 until:2018-12-04"
+Nordstrom
+15162193
+python manage.py createdetails Nordstrom 2018-11-05
+
+scrapy crawl TweetScraper -a query="from:discountmugscom since:2017-12-31 until:2019-01-24"
+discountmugscom
+57388534
+python manage.py createdetails discountmugscom 2018-12-26
+
+scrapy crawl TweetScraper -a query="from:Snapchat since:2016-10-09 until:2017-11-02"
+Snapchat
+376502929
+python manage.py createdetails Snapchat 2017-10-04
+
+scrapy crawl TweetScraper -a query="from:Oracle since:2017-03-25 until:2018-04-18"
+Oracle
+809273
+python manage.py createdetails Oracle 2018-03-20
+
+scrapy crawl TweetScraper -a query="from:Quora since:2017-11-05 until:2018-11-29"
+Quora
+33696409
+python manage.py createdetails Quora 2018-10-31
+
+scrapy crawl TweetScraper -a query="from:Dropbox since:2015-08-31 until:2016-09-23"
+Dropbox
+14749606
+python manage.py createdetails Dropbox 2016-08-25
+
+scrapy crawl TweetScraper -a query="from:microsoft since:2017-10-15 until:2018-11-08"
+microsoft
+74286565
+python manage.py createdetails microsoft 2018-10-10
