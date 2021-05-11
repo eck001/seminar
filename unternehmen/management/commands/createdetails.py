@@ -45,19 +45,16 @@ class Command(BaseCommand):
 
         tweetsumme = 0
         woertersumme = 0
-        zeichensumme = 0
 
         for i in tweetsthirdsplit:
             tweetsumme += 1
             woertersumme += i.woerter
-            zeichensumme += i.zeichen
         tweets_after_30_days = tweetsumme
         average_words = woertersumme / tweetsumme
 
         details.objects.create(                 # details objekt für nach den dem Databreach erstellen
             unternehmensname=tweetsthirdsplit.first().unternehmensname,
             woerteranzahl=woertersumme,
-            zeichenanzahl=zeichensumme,
             tweetsanzahl=tweetsumme,
             vorodernach="nach",
             average_words=average_words,
@@ -68,12 +65,12 @@ class Command(BaseCommand):
         )
 
         woertersumme = 0                    # Daten für Tweets vor dem Databrach ermitteln
-        zeichensumme = 0
+
         tweetsumme = 0
 
         for i in tweetsbefore:
             woertersumme += i.woerter
-            zeichensumme += i.zeichen
+
             tweetsumme += 1
 
         average_words = woertersumme / tweetsumme
@@ -82,7 +79,7 @@ class Command(BaseCommand):
         details.objects.create(             # details objekt für vor den dem Databreach erstellen
             unternehmensname=tweetsbefore.first().unternehmensname,
             woerteranzahl=woertersumme,
-            zeichenanzahl=zeichensumme,
+
             tweets_per_30_days=tweets_per_30_days_before,
             average_words=average_words,
             tweetsanzahl=tweetsumme,
