@@ -29,4 +29,4 @@ class SaveToFilePipeline(object):
                 )
 
         else:
-            logger.info("Item type is not recognized! type = %s" %type(item))
+            print("Der Tweet gehört nicht zu dem Benutzer(d.h. Werbung oder Retweet)")

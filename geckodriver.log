@@ -11514,3 +11514,22 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (/usr/lib/firefox/firefox:121618): GLib-GObject-CRITICAL **: 00:59:42.572: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 1617325279488	Marionette	INFO	Stopped listening on port 40321
+1620752833564	geckodriver	INFO	Listening on 127.0.0.1:52285
+1620752834581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6v9Aaf"
+*** You are running in headless mode.
+1620752835622	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:4514): GLib-GObject-CRITICAL **: 17:07:16.211: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:4539): GLib-GObject-CRITICAL **: 17:07:16.329: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620752837375	Marionette	INFO	Listening on port 43653
+1620752837408	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4606): GLib-GObject-CRITICAL **: 17:07:17.447: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:4653): GLib-GObject-CRITICAL **: 17:07:18.807: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
