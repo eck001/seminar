@@ -11,6 +11,8 @@ def unternehmen(request):
 
     return render(request, 'Unternehmen/yahoo.html', {'details' : details_for_front_end})
 
+def zusammenfassung(request):
+    return  render(request, 'Seiten/zusammenfassung.html')
 def branchen(request):
     return  render(request, 'Seiten/branchen.html')
 def unternehmensgroesse(request):

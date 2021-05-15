@@ -1,44 +1,49 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<div class="container">
-    <h3 style="color: #4c3f3f">Vergleiche nach Börsennotierung</h3>
-    <div class="row s5 m5">
-        <div class="col s6 m6">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="/static/images/boersennotierte.jpg">
-                </div>
-                <div class="card-content">
+    <div class="container">
+        <h3 style="color: #4c3f3f">Vergleiche nach Börsennotierung</h3>
+        <div class="row s5 m5">
+            <div class="col s6 m6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/static/images/boersennotierte.jpg">
+                    </div>
+                    <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Börsennotierte Unternehmen<i
                             class="material-icons right">Analyse</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card
-                        Title</span>
-                    <img class="activator" src="/static/images/gesundheitbsptabelle.png">
-                    <p>Here is some more information about this product that is only revealed once
-                        clicked on.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Börsennotierte Unternehmen</span>
+                        <img src="/static/graphen/tabellen/bild171.png"
+                             style="margin-left: 2cm;width: 400px; height: 340px">
+                        <img src="/static/graphen/tabellen/bild172.png"
+                             style="margin-left: 2cm;width: 400px; height: 340px">
+                        <p style="margin-left: 2cm">Standardabweichung : 62,75%</p>
+                        <p style="margin-left: 2cm">t-Test: </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col s6 m6">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="/static/images/nichtboersennotiert.jpg">
-                </div>
-                <div class="card-content">
+            <div class="col s6 m6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/static/images/nichtboersennotiert.jpg">
+                    </div>
+                    <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Nicht Börsenntierte Unternehmen<i
                             class="material-icons right">Analyse</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card
-                        Title</span>
-                    <img class="activator" src="/static/images/gesundheitbsptabelle.png">
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Nicht Börsenntierte Unternehmen</span>
+                        <img src="/static/graphen/tabellen/bild181.png"
+                             style="margin-left: 2cm;width: 400px; height: 340px">
+                        <img src="/static/graphen/tabellen/bild182.png"
+                             style="margin-left: 2cm;width: 400px; height: 340px">
+                        <p style="margin-left: 2cm">Standardabweichung : 107,36%</p>
+                        <p style="margin-left: 2cm">t-Test: </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {% endblock %}

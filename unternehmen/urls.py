@@ -9,6 +9,6 @@ urlpatterns = [
     path('boersennotierung/', views.boersennotierung ,name='boersennotierung'),
     path('daten/', views.daten, name='daten'),
     path('ueberuns/', views.ueberuns, name='ueberuns'),
-    path('yahoo/', views.unternehmen, name='yahoo'),
+    path('zusammenfassung/', views.zusammenfassung, name='zusammenfassung'),
 
 ]

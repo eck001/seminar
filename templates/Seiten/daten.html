@@ -1,10 +1,84 @@
 {% extends 'main.html' %}
 
 {% block content %}
-    <div class="container">
-        <h2 style="color: #4c3f3f">Gesammelte Daten</h2>
-        <img style="position: static"  src="/static/images/alledaten.png">
+    <div style="margin-bottom: 100px">
+        <div class="container">
+            <h2 style="color: #4c3f3f">Gesammelte Daten</h2>
+            <img src="/static/images/alledaten.png">
+
+            <div style="display: block ">
+                <h2>t-Test</h2>
+                <h3>Branchen</h3>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/finanz.jpg">
+                    <h6>t-Test:</h6>
+                    <p>H0 = Data Breaches haben keinen Effekt auf die Tweetsänderung</p>
+                    <p>t-Statistik > 0 heißt, dass der erste Mittelwert(vor DB) größer als zweiter Mittelwert(nach
+                        DB)</p>
+                    <p>Mit t-Test wird es getestet, ob dieser Unterschiedbetrag zwischen vor DB und nach DB zufällig
+                        ist.</p>
+                    <p>1- Um H0 zu verwerfen muss der Wert von t-Statistik größer als kritischen t-Wert bei einseitigem
+                        t-Test sein</p>
+                    <p>2- P(T<=t) einseitig muss kleiner als 0,05 sein damit H0 verwenden werden kann.</p>
+                    <p>In Finanzbranche da die Annahmen nucht getroffen sind, kann H0 nicht verwerfen werden.</p>
+                    <br>
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/technologie.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/einzelhandel.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/hoteltransport.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/gesundheit.jpg">
+
+                </div>
+            </div>
+            <div>
+                <h3>Unternehmensgröße</h3>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/0-5000.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/5001-50000.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/50000+.jpg">
+
+                </div>
+            </div>
+            <div style="margin-top: 17cm">
+                <h3>Börsennotierung</h3>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/bФrsennotierte.jpg">
+
+                </div>
+                <div style="margin-top: 1cm; background-color: #afa8a8">
+
+                    <img style="float: left; padding:0 10px 10px 0;" src="/static/graphen/nicht-bФrsennotierte.jpg">
+
+                </div>
+            </div>
 
 
+        </div>
     </div>
 {% endblock %}
